@@ -19,7 +19,7 @@
 void my_free(void **mem) {
     if (*mem != NULL) {
         mem_free(*mem);
-        // debug("Freed %p\n", *mem);
+        debug("Freed %p\n", *mem);
         *mem = NULL;
     }
 }
@@ -29,7 +29,7 @@ static void *checked_alloc(size_t s) {
 
     assert((result = mem_alloc(s)) != NULL);
     bzero(result, s);
-    // debug("Alloced %zu bytes at %p\n", s, result);
+    debug("Alloced %zu bytes at %p\n", s, result);
     return result;
 }
 

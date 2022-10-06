@@ -10,8 +10,8 @@
 CC=gcc
 
 # build flags
-CFLAGS= -Wall -Werror -g -DMEMORY_SIZE=128000
-#CFLAGS+= -DDEBUG
+CFLAGS= -Wall -Werror -g -DMEMORY_SIZE=100200
+CFLAGS+= -DDEBUG
 LDFLAGS=
 
 ###############################################################################

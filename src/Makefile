@@ -14,7 +14,7 @@ CC=gcc
 #HOST32= -m32
 
 CXXFLAGS= $(HOST32) -Wall -Werror -std=c++11 -g
-CFLAGS= $(HOST32) -Wall -Werror -std=c99 -g -DMEMORY_SIZE=128000
+CFLAGS= $(HOST32) -Wall -Werror -std=c99 -g -DMEMORY_SIZE=100200
 CFLAGS+= -DDEBUG
 LDFLAGS= $(HOST32)
 INCLUDE=.

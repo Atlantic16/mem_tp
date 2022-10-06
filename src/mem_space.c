@@ -23,5 +23,5 @@ void *mem_space_get_addr()
 
 size_t mem_space_get_size()
 {
-    return 4096; 
+    return MEMORY_SIZE;
 }
